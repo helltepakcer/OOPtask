@@ -1,12 +1,6 @@
 
-"""
- #2. Create LinkedList Class with methods:
- #a) get(i)
+# #2. Create LinkedList Class with methods:
 
-
-(el) - first element = el
-
- """
 
 class Node:
     def __init__( self, data ) :
@@ -17,7 +11,7 @@ class Node:
 class LinkedList:
     def __init__(self):
         self.head = None
-
+    #get(i)
     def get(self, index):
         node = self.head
         count = 0

@@ -82,8 +82,4 @@ class Department(Employee, Manager):
         return "%s %s : got salary: %s" % (self.first_name, self.second_name, self.salary)
 
 
-new_emp = Employee("Hena", "Yamko", 100, 1, "")
-new_manager = Manager("Brus", "Will", 200, 1, "", 2, 3)
 
-
-print(new_manager)
